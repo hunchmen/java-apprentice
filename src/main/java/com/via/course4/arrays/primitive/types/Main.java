@@ -24,7 +24,6 @@ public class Main {
         intArray[1] = 20;
 
         String[] companies = {};
-        Arrays.remo
 
 
         System.out.println("Array of Integers: " + intArray);
