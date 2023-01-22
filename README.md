@@ -19,3 +19,30 @@ Checked exceptions
 Unchecked exceptions
 >* not pointed out by the compiler - but a good developer should anticipate and handle them
 >* can be addressed by fixing bugs in the code or by setting a try-catch block
+
+Java Collections Framework
+>* classes and interface that implement commonly reusable data structures
+>* Collection interface represents a group of objects, known as its elements. List and Set interfaces extends Collection, List interface allows duplicate elements and also maintains the insertion order, Set interface doesn't allow duplicate elements. Map interface represents a collection of key-value pairs, where each key is unique and can be used to retrieve its corresponding value.
+
+Arrays
+>* collection of objects, where the type and number of objects are specified upfront
+>* fixed-length characteristic
+
+List
+>* ordered collection of objects, can contain duplicate
+
+ArrayList
+>* specific implementation of a list where arrays are used to stored elements
+
+Interface Hierarchy
+>* Iterable > Collection > List
+
+Linked List
+>* implements the list using a double-linked list
+
+
+>* Collection interface represents a group of objects, known as its elements. List and Set interfaces extends Collection, List interface allows duplicate elements and also maintains the insertion order, Set interface doesn't allow duplicate elements. Map interface represents a collection of key-value pairs, where each key is unique and can be used to retrieve its corresponding value.
+
+
+
+
