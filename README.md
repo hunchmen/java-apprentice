@@ -39,10 +39,32 @@ Interface Hierarchy
 
 Linked List
 >* implements the list using a double-linked list
-
-
 >* Collection interface represents a group of objects, known as its elements. List and Set interfaces extends Collection, List interface allows duplicate elements and also maintains the insertion order, Set interface doesn't allow duplicate elements. Map interface represents a collection of key-value pairs, where each key is unique and can be used to retrieve its corresponding value.
 
+Sets
+>* unordered collection of elements which do not allow duplicates
+>* Sets used equality checks to performed using the .equals() and .hashCode() method on objects.
+
+HashSet
+>* set elements in random order
+
+LinkHashSet
+>* order elements the way it inserted to the set.
+
+TreeSet
+>* set elements in lexicographic order(alphabetical) or in ascending order
+
+Comparing Elements in a TreeSet'
+>* Objects implement the Comparable interface or the TreeSet uses a separate Comparator
+
+Maps
+>* containers that contain mappings from keys to values
+
+Cache
+>* Smaller sized faster store for quick look ups of commonly used data
+
+LRU(Least Recently Used Cached)
+>* keeps around data that is frequently accessed and evicts data that is rarely accessed 
 
 
 
